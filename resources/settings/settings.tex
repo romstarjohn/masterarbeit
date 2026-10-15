@@ -1,0 +1,142 @@
+\documentclass[
+    12pt,
+    a4paper,
+    oneside,
+    chapterprefix=false,
+    parskip=half,
+    listof=totoc,
+    bibliography=totoc,
+    numbers=noendperiod
+]{scrreprt}
+
+% ---------------------------------------------------------
+% Sprache und Schrift
+% ---------------------------------------------------------
+
+\usepackage[ngerman]{babel}
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+% Verhindert überstehende Zeilen bei langen Begriffen
+\setlength{\emergencystretch}{1em}
+
+% ---------------------------------------------------------
+% Seitenlayout
+% ---------------------------------------------------------
+
+\usepackage[
+    top=25mm,
+    bottom=35mm,
+    left=25mm,
+    right=25mm
+]{geometry}
+
+% Kein Einzug am Anfang eines Absatzes
+\setlength{\parindent}{0pt}
+
+% Zeilenabstand 1,5
+\usepackage[onehalfspacing]{setspace}
+
+% Verbesserter Schriftsatz
+\usepackage[stretch=10]{microtype}
+
+% ---------------------------------------------------------
+% Kopf- und Fußzeilen
+% ---------------------------------------------------------
+
+\usepackage[
+    automark,
+    headsepline
+]{scrlayer-scrpage}
+
+% Bei Bedarf aktivieren:
+% \input{resources/styles/header_footer}
+
+% ---------------------------------------------------------
+% Literatur und Zitate
+% ---------------------------------------------------------
+
+\usepackage{csquotes}
+
+\usepackage[
+    round,
+    authoryear,
+    sort&compress
+]{natbib}
+
+\bibliographystyle{plainnat}
+
+% Zitate am Anfang von Kapiteln oder Abschnitten
+\usepackage{epigraph}
+
+% ---------------------------------------------------------
+% Abbildungen
+% ---------------------------------------------------------
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{wrapfig}
+
+% ---------------------------------------------------------
+% Tabellen
+% ---------------------------------------------------------
+
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+% ---------------------------------------------------------
+% Farben und Quellcode
+% ---------------------------------------------------------
+
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{listings}
+
+% ---------------------------------------------------------
+% Zeichnungen und Vektorgrafiken
+% ---------------------------------------------------------
+
+\usepackage{tikz}
+
+% ---------------------------------------------------------
+% Listen
+% ---------------------------------------------------------
+
+\usepackage{paralist}
+
+% ---------------------------------------------------------
+% Glossar, Akronyme und Stichwortverzeichnis
+% ---------------------------------------------------------
+
+\usepackage[
+    toc,
+    acronym
+]{glossaries}
+
+\usepackage{imakeidx}
+
+\makeglossaries
+\makeindex
+
+% ---------------------------------------------------------
+% Blindtext – nur während der Entwicklung
+% ---------------------------------------------------------
+
+\usepackage{blindtext}
+
+% ---------------------------------------------------------
+% KOMA-Script-Kompatibilität
+% ---------------------------------------------------------
+
+\usepackage{scrhack}
+
+% ---------------------------------------------------------
+% Links
+% Muss möglichst spät geladen werden
+% ---------------------------------------------------------
+
+\usepackage[
+    hidelinks,
+    german
+]{hyperref}

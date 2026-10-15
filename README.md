@@ -1,1 +1,1 @@
-# masterarbeit
+# Bachelorarbeit
