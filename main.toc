@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {0.5}Entwicklung}{5}{section.0.5}%
 \contentsline {section}{\numberline {0.6}Diskussion}{6}{section.0.6}%
 \contentsline {section}{\numberline {0.7}Fazit}{7}{section.0.7}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{8}{chapter*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

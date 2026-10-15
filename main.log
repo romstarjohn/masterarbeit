@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.25)  25 JUL 2026 21:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.25)  15 OCT 2026 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,7 +1340,10 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count441
 ))
-No file main.aux.
+(./main.aux
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 17.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -1363,8 +1366,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 86.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1422,6 +1423,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 86.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1487,10 +1489,6 @@ Package caption Info: End \AtBeginDocument code.
 Package tocbasic Info: setting babel extension for `lol' on input line 86.
 \scr@dte@lstlisting@maxnumwidth=\skip99
 Package hyperref Info: Link coloring OFF on input line 86.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1558,6 +1556,16 @@ Overfull \hbox (20.53589pt too wide) in paragraph at lines 93--93
 [] 
  []
 
+
+Overfull \hbox (20.53589pt too wide) in paragraph at lines 93--93
+[] 
+ []
+
+
+Overfull \hbox (20.53589pt too wide) in paragraph at lines 93--93
+[] 
+ []
+
 File: resources/images/deckblatt.png Graphic file (type bmp)
 <resources/images/deckblatt.png>
 [1
@@ -1568,20 +1576,17 @@ File: resources/images/deckblatt.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (20.53589pt too wide) in paragraph at lines 93--93
-[] 
- []
-
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 9
 3.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 File: resources/images/deckblatt.png Graphic file (type bmp)
 <resources/images/deckblatt.png>
- [2]
+
+[2]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1641,47 +1646,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 10
 6.
-
-No file main.toc.
+ (./main.toc)
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-[1
+ [1
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 10
 8.
-
-No file main.lof.
+ (./main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
-[2
+ [2
 
-] (./chapter/1_Einleitung.tex)
+]
+(./chapter/1_Einleitung.tex)
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 114.
  [1] (./chapter/2_Theorie.tex
-
-Package natbib Warning: Citation `Statista2018' on page 2 undefined on input li
-ne 4.
-
-
-Package natbib Warning: Citation `Statista2018' on page 2 undefined on input li
-ne 4.
-
-
-Package natbib Warning: Citation `Statista2018' on page 2 undefined on input li
-ne 4.
-
 File: resources/images/amazon_dev_console.png Graphic file (type bmp)
 <resources/images/amazon_dev_console.png>
 File: resources/images/amazon_dev_console.png Graphic file (type bmp)
 <resources/images/amazon_dev_console.png>
-
-LaTeX Warning: Reference `fig:demobild' on page 2 undefined on input line 21.
-
-) [2] (./chapter/3_Analyse.tex
+) [2]
+(./chapter/3_Analyse.tex
 File: resources/images/amazon_dev_console.png Graphic file (type bmp)
 <resources/images/amazon_dev_console.png>
 File: resources/images/amazon_dev_console.png Graphic file (type bmp)
@@ -1695,36 +1685,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 6.
 ) [5] (./chapter/6_Diskussion.tex) [6]
-(./chapter/7_Fazit.tex) [7]
-No file main.bbl.
-
-Package natbib Warning: There were undefined citations.
-
+(./chapter/7_Fazit.tex) [7] (./main.bbl
+chapter without number
+)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(./main.aux)
+[8
+
+] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 42681 strings out of 468168
- 916395 string characters out of 5432815
+ 42715 strings out of 468168
+ 917035 string characters out of 5432815
  1799113 words of memory out of 5000000
- 70762 multiletter control sequences out of 15000+600000
+ 70786 multiletter control sequences out of 15000+600000
  633987 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  113i,20n,140p,11243b,1173s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (13 pages).
+Output written on main.pdf (14 pages).
